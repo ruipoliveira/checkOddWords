@@ -1,0 +1,60 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
+| Date         : Fri Jun 03 01:32:39 2016
+| Host         : DESKTOP-BGLQMM6 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file hardversion_wrapper_control_sets_placed.rpt
+| Design       : hardversion_wrapper
+| Device       : xc7a100t
+------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |     7 |
+| Minimum Number of register sites lost to control set restrictions |    30 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              34 |           21 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             317 |          155 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              11 |            3 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------------------------+----------------------------------------------+-----------------------------------------------+------------------+----------------+
+|                  Clock Signal                 |                 Enable Signal                |                Set/Reset Signal               | Slice Load Count | Bel Load Count |
++-----------------------------------------------+----------------------------------------------+-----------------------------------------------+------------------+----------------+
+| ~clk_IBUF_BUFG                                |                                              |                                               |                1 |              1 |
+| ~clk_IBUF_BUFG                                | hardversion_i/unroll_0/U0/addr_in[3]_i_1_n_0 | btnC_IBUF                                     |                3 |             11 |
+|  hardversion_i/clock_divider_0/U0/divided_clk |                                              |                                               |               15 |             16 |
+|  clk_IBUF_BUFG                                |                                              |                                               |                5 |             17 |
+|  clk_IBUF_BUFG                                |                                              | btnC_IBUF                                     |                7 |             27 |
+|  hardversion_i/clock_divider_0/U0/divided_clk |                                              | hardversion_i/sendImpar_0/U0/k_reg[0]_i_3_n_0 |                8 |             32 |
+| ~clk_IBUF_BUFG                                |                                              | btnC_IBUF                                     |              140 |            258 |
++-----------------------------------------------+----------------------------------------------+-----------------------------------------------+------------------+----------------+
+
+

@@ -1,0 +1,68 @@
+
+#include <stdio.h>
+#include "platform.h"
+#include "xgpio.h"
+#include "xparameters.h"
+
+#define size 16 // the size (the number of elements) of array
+
+void print(char *str);
+char inbyte(void);
+void outbyte(char c);
+
+
+XGpio GPIO_0; //declare an XGpio and XGpio instance
+XGpio_Config GPIO_0_conf;
+
+int main()
+{
+
+
+
+
+    unsigned int value=0;
+    int i;
+
+
+    unsigned int my_array[] = {3,222,111,133,292,339,499,999,677,781,891,98,109,114,127,139,396,777, // 69 - 94
+    926,471,911,491,913,163,626,581,591,333,421,345,555,888,272,312,326,334,734,435,836,937,238,239,240, // 95 - 119
+    121,59,199,27,98,99,100,99,92,159,163,114,177,101,44,55,192,58,81,129,193,124,76,38,181,147,182,77,71, // 120 - 148
+    17,164,149,193,62,45,81,176,184,165,28,199,1,199,1,199,1,199,1,199,1,199,1,199,15,12,9,98,9,134,14,15, // 149 - 180
+    16,7,2,6,1,4,7,18,1,5,20,21,22,23,24,25,15,15,15,101,199,102,198,103,197,104,196,105,195,111,189,122, // 181 - 212
+    184,137,136,135,134,144,141,190,120,170,60,70,30,50,111,981,141,171,121,66,193,118,125,173,176,180, // 213 - 238
+    169,187,165,181,101,577,153,159,679,144,155,799,177,139,152,799,179}; // 239 - 255
+
+    GPIO_0_conf.BaseAddress = XPAR_AXI_GPIO_0_BASEADDR;
+    GPIO_0_conf.DeviceId = XPAR_GPIO_0_DEVICE_ID;
+    GPIO_0_conf.InterruptPresent = XPAR_GPIO_0_INTERRUPT_PRESENT;
+    GPIO_0_conf.IsDual = XPAR_GPIO_0_IS_DUAL;
+    //Initialize the XGpio instance
+    XGpio_CfgInitialize(&GPIO_0, &GPIO_0_conf, GPIO_0_conf.BaseAddress);
+
+
+    init_platform();
+
+
+    print("Hello World\n\r");
+
+    for(i=0;i<size;i++) // to fill in embedded memory with the my_array values
+    {
+    	value = 0xe0000000 | (i<<16) | my_array[i];
+    	XGpio_DiscreteWrite(&GPIO_0, 1, value);
+    	print("dasd: ");
+    }
+
+
+
+
+
+
+    print("Hello World\n\r");
+
+
+
+
+
+    cleanup_platform();
+    return 0;
+}

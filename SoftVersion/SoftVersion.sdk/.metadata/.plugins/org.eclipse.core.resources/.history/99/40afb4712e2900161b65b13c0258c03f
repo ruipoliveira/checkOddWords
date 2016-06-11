@@ -1,0 +1,62 @@
+
+#include <stdio.h>
+#include "platform.h"
+#include "xgpio.h"
+#include "xparameters.h"
+
+#define size 16 // the size (the number of elements) of array
+
+void print(char *str);
+char inbyte(void);
+void outbyte(char c);
+
+
+XGpio GPIO_0; //declare an XGpio and XGpio instance
+XGpio_Config GPIO_0_conf;
+
+int main()
+{
+
+
+
+
+    unsigned int value=0;
+    int i;
+
+
+    unsigned int my_array[] = {15BD, 95A5, 065A, 2431, 6BFE, 0111, 3108, 0A02, AAA0, FFF6, AAF7, 981C, 23f3, 450F, F504, FF49};
+
+    GPIO_0_conf.BaseAddress = XPAR_AXI_GPIO_0_BASEADDR;
+    GPIO_0_conf.DeviceId = XPAR_GPIO_0_DEVICE_ID;
+    GPIO_0_conf.InterruptPresent = XPAR_GPIO_0_INTERRUPT_PRESENT;
+    GPIO_0_conf.IsDual = XPAR_GPIO_0_IS_DUAL;
+    //Initialize the XGpio instance
+    XGpio_CfgInitialize(&GPIO_0, &GPIO_0_conf, GPIO_0_conf.BaseAddress);
+
+
+    init_platform();
+    print("Example of interactions with Nexys-4 switches and leds\n\r");
+
+
+
+    for(i=0;i<size;i++) // to fill in embedded memory with the my_array values
+    {
+    	value = 0xe0000000 | (i<<16) | my_array[i];
+    	XGpio_DiscreteWrite(&GPIO_0, 1, value);
+    	print("dasd: ");
+    }
+
+
+
+
+
+
+    print("Hello World\n\r");
+
+
+
+
+
+    cleanup_platform();
+    return 0;
+}

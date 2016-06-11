@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Fri Jun 03 01:26:36 2016
+# Process ID: 14624
+# Current directory: D:/ECT-UA/CR/tarefa19_1/imparE/imparE.runs/impl_1
+# Command line: vivado.exe -log imparE.vdi -applog -messageDb vivado.pb -mode batch -source imparE.tcl -notrace
+# Log file: D:/ECT-UA/CR/tarefa19_1/imparE/imparE.runs/impl_1/imparE.vdi
+# Journal file: D:/ECT-UA/CR/tarefa19_1/imparE/imparE.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source imparE.tcl -notrace

@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Jun 09 01:01:30 2016
+# Process ID: 9396
+# Current directory: D:/checkOddWords/unroll
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9700 D:\checkOddWords\unroll\unroll.xpr
+# Log file: D:/checkOddWords/unroll/vivado.log
+# Journal file: D:/checkOddWords/unroll\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/checkOddWords/unroll/unroll.xpr
+INFO: [Project 1-313] Project file moved from 'D:/ECT-UA/CR/tarefa19_1/unroll' since last save.
+WARNING: [Project 1-312] File not found as 'D:/Nexys4_Master.xdc'; using path 'D:/ECT-UA/CR/Nexys4_Master.xdc' instead.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-312] File not found as 'D:/Nexys4_Master.xdc'; using path 'D:/ECT-UA/CR/Nexys4_Master.xdc' instead.
+WARNING: [Project 1-312] File not found as 'D:/Nexys4_Master.xdc'; using path 'D:/ECT-UA/CR/Nexys4_Master.xdc' instead.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'D:/../../ect-ua/cr/tarefa19_1/unroll', nor could it be found using path 'D:/ect-ua/cr/tarefa19_1/unroll'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/checkOddWords/unroll/ect-ua/cr/tarefa19_1/unroll'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 792.320 ; gain = 202.793
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 09 01:03:05 2016...

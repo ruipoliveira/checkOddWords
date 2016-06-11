@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Fri Jun 10 21:53:57 2016
+# Process ID: 8616
+# Current directory: D:/checkOddWords/clockDivider
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1696 D:\checkOddWords\clockDivider\clockDivider.xpr
+# Log file: D:/checkOddWords/clockDivider/vivado.log
+# Journal file: D:/checkOddWords/clockDivider\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/checkOddWords/clockDivider/clockDivider.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Rui Oliveira/Dropbox/testePraticoCR/REPOSITORY/clockDivider' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/checkOddWords/clockDivider/clockDivider.srcs/sources_1/new'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 718.449 ; gain = 121.270
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jun 10 21:56:28 2016...

@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Jun 02 16:52:00 2016
+# Process ID: 1808
+# Current directory: D:/ECT-UA/CR/tarefa19_1/hardwareVersion/hardwareVersion.runs/synth_1
+# Command line: vivado.exe -log hardversion_wrapper.vds -mode batch -messageDb vivado.pb -notrace -source hardversion_wrapper.tcl
+# Log file: D:/ECT-UA/CR/tarefa19_1/hardwareVersion/hardwareVersion.runs/synth_1/hardversion_wrapper.vds
+# Journal file: D:/ECT-UA/CR/tarefa19_1/hardwareVersion/hardwareVersion.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source hardversion_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ECT-UA/CR/tarefa19_1/checkImpar'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ECT-UA/CR/tarefa19_1/clockDivider'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ECT-UA/CR/tarefa19_1/sendImpar'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Rui Oliveira/Dropbox/testePraticoCR/REPOSITORY/DisplayControl32inputs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ECT-UA/CR/tarefa19_1/unroll'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'.
+Command: synth_design -top hardversion_wrapper -part xc7a100tcsg324-2
+Starting synth_design
+WARNING: [Vivado_Tcl 4-393] The 'Synthesis' target of the following IPs are stale, please generate the output products using the generate_target or synth_ip command before running synth_design.
+D:/ECT-UA/CR/tarefa19_1/hardwareVersion/hardwareVersion.srcs/sources_1/bd/hardversion/hardversion.bd
+
+WARNING: [Vivado_Tcl 4-393] The 'Implementation' target of the following IPs are stale, please generate the output products using the generate_target or synth_ip command before running synth_design.
+D:/ECT-UA/CR/tarefa19_1/hardwareVersion/hardwareVersion.srcs/sources_1/bd/hardversion/hardversion.bd
+
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'

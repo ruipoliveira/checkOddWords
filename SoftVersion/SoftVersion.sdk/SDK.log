@@ -1,0 +1,190 @@
+01:50:24 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+01:50:31 INFO  : XSDB server has started successfully.
+01:50:39 INFO  : Processing command line option -hwspec D:/ECT-UA/CR/tarefa19_1/SoftVersion/SoftVersion.sdk/MB_version_wrapper.hdf.
+01:52:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:52:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274505290A" && level==0} -index 0' command is executed.
+01:52:28 INFO  : FPGA configured successfully with bitstream "D:/ECT-UA/CR/tarefa19_1/SoftVersion/SoftVersion.sdk/MB_version_wrapper_hw_platform_0/download.bit"
+01:53:12 INFO  : Processor reset is completed for microblaze_0
+01:53:33 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+02:21:50 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+02:21:52 INFO  : XSDB server has started successfully.
+02:21:53 INFO  : Processing command line option -hwspec D:/ECT-UA/CR/tarefa19_1/SoftVersion/SoftVersion.sdk/MB_version_wrapper.hdf.
+02:21:53 INFO  : Checking for hwspec changes in the project MB_version_wrapper_hw_platform_0.
+02:21:53 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1464916879963,  Project:1464914942874
+02:21:53 INFO  : The hardware specification for project 'MB_version_wrapper_hw_platform_0' is different from D:/ECT-UA/CR/tarefa19_1/SoftVersion/SoftVersion.sdk/MB_version_wrapper.hdf.
+02:21:53 INFO  : Copied contents of D:/ECT-UA/CR/tarefa19_1/SoftVersion/SoftVersion.sdk/MB_version_wrapper.hdf into \MB_version_wrapper_hw_platform_0\system.hdf.
+02:21:54 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+02:21:57 INFO  : 
+02:21:59 INFO  : Updating hardware inferred compiler options for SDK_version.
+02:21:59 INFO  : Clearing existing target manager status.
+02:22:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:22:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274505290A" && level==0} -index 0' command is executed.
+02:22:43 INFO  : FPGA configured successfully with bitstream "D:/ECT-UA/CR/tarefa19_1/SoftVersion/SoftVersion.sdk/MB_version_wrapper_hw_platform_0/download.bit"
+02:23:09 INFO  : Processor reset is completed for microblaze_0
+02:26:28 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:26:33 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:26:35 INFO  : Processor reset is completed for microblaze_0
+02:28:10 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:28:11 INFO  : Processor reset is completed for microblaze_0
+02:28:57 INFO  : Processor reset is completed for microblaze_0
+02:29:25 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+02:29:25 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+02:29:25 ERROR : Disconnect target failed.
+02:29:58 INFO  : Processor reset is completed for microblaze_0
+02:30:06 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+02:32:31 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+02:32:33 INFO  : XSDB server has started successfully.
+02:32:35 INFO  : Processing command line option -hwspec D:/ECT-UA/CR/tarefa19_1/SoftVersion/SoftVersion.sdk/MB_version_wrapper.hdf.
+02:32:36 INFO  : Checking for hwspec changes in the project MB_version_wrapper_hw_platform_0.
+02:35:20 INFO  : Processor reset is completed for microblaze_0
+02:40:08 INFO  : Processor reset is completed for microblaze_0
+02:42:27 INFO  : Processor reset is completed for microblaze_0
+02:42:27 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Unknown Error Occured
+    Target '0' Does NOT exist in the Current System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+02:43:10 INFO  : Processor reset is completed for microblaze_0
+02:43:18 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+02:43:31 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+02:43:32 INFO  : XSDB server has started successfully.
+02:43:32 INFO  : Processing command line option -hwspec D:/ECT-UA/CR/tarefa19_1/SoftVersion/SoftVersion.sdk/MB_version_wrapper.hdf.
+02:43:32 INFO  : Checking for hwspec changes in the project MB_version_wrapper_hw_platform_0.
+02:47:51 INFO  : Processor reset is completed for microblaze_0
+02:47:57 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:48:00 INFO  : Processor reset is completed for microblaze_0
+02:48:20 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:48:28 INFO  : Processor reset is completed for microblaze_0
+02:50:31 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:50:34 INFO  : Processor reset is completed for microblaze_0
+02:50:53 INFO  : Processor reset is completed for microblaze_0
+02:58:01 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:58:02 INFO  : Processor reset is completed for microblaze_0
+03:00:58 INFO  : Processor reset is completed for microblaze_0
+03:01:48 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+03:01:50 INFO  : Processor reset is completed for microblaze_0
+03:20:27 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+03:20:56 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+03:20:58 INFO  : XSDB server has started successfully.
+03:20:58 INFO  : Processing command line option -hwspec D:/ECT-UA/CR/tarefa19_1/SoftVersion/SoftVersion.sdk/MB_version_wrapper.hdf.
+03:20:58 INFO  : Checking for hwspec changes in the project MB_version_wrapper_hw_platform_0.
+03:20:58 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1464920415350,  Project:1464916879963
+03:20:58 INFO  : The hardware specification for project 'MB_version_wrapper_hw_platform_0' is different from D:/ECT-UA/CR/tarefa19_1/SoftVersion/SoftVersion.sdk/MB_version_wrapper.hdf.
+03:20:58 INFO  : Copied contents of D:/ECT-UA/CR/tarefa19_1/SoftVersion/SoftVersion.sdk/MB_version_wrapper.hdf into \MB_version_wrapper_hw_platform_0\system.hdf.
+03:20:59 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+03:21:09 INFO  : 
+03:21:11 INFO  : Updating hardware inferred compiler options for SDK_version.
+03:21:11 INFO  : Clearing existing target manager status.
+03:21:12 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+03:21:13 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+03:21:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:21:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274505290A" && level==0} -index 0' command is executed.
+03:21:49 INFO  : FPGA configured successfully with bitstream "D:/ECT-UA/CR/tarefa19_1/SoftVersion/SoftVersion.sdk/MB_version_wrapper_hw_platform_0/download.bit"
+03:21:56 INFO  : Processor reset is completed for microblaze_0
+03:32:30 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+03:39:00 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+03:39:01 INFO  : XSDB server has started successfully.
+03:39:01 INFO  : Processing command line option -hwspec D:/ECT-UA/CR/tarefa19_1/SoftVersion/SoftVersion.sdk/MB_version_wrapper.hdf.
+03:39:02 INFO  : Checking for hwspec changes in the project MB_version_wrapper_hw_platform_0.
+03:39:02 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1464921517648,  Project:1464920415350
+03:39:02 INFO  : The hardware specification for project 'MB_version_wrapper_hw_platform_0' is different from D:/ECT-UA/CR/tarefa19_1/SoftVersion/SoftVersion.sdk/MB_version_wrapper.hdf.
+03:39:02 INFO  : Copied contents of D:/ECT-UA/CR/tarefa19_1/SoftVersion/SoftVersion.sdk/MB_version_wrapper.hdf into \MB_version_wrapper_hw_platform_0\system.hdf.
+03:39:02 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+03:39:04 INFO  : 
+03:39:06 INFO  : Updating hardware inferred compiler options for SDK_version.
+03:39:06 INFO  : Clearing existing target manager status.
+03:39:07 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+03:39:07 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+03:40:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:40:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274505290A" && level==0} -index 0' command is executed.
+03:40:12 INFO  : FPGA configured successfully with bitstream "D:/ECT-UA/CR/tarefa19_1/SoftVersion/SoftVersion.sdk/MB_version_wrapper_hw_platform_0/download.bit"
+03:40:26 INFO  : Processor reset is completed for microblaze_0
+03:41:39 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+03:52:50 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+03:52:51 INFO  : XSDB server has started successfully.
+03:52:51 INFO  : Processing command line option -hwspec D:/ECT-UA/CR/tarefa19_1/SoftVersion/SoftVersion.sdk/MB_version_wrapper.hdf.
+03:52:51 INFO  : Checking for hwspec changes in the project MB_version_wrapper_hw_platform_0.
+03:52:51 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1464922342948,  Project:1464921517648
+03:52:51 INFO  : The hardware specification for project 'MB_version_wrapper_hw_platform_0' is different from D:/ECT-UA/CR/tarefa19_1/SoftVersion/SoftVersion.sdk/MB_version_wrapper.hdf.
+03:52:52 INFO  : Copied contents of D:/ECT-UA/CR/tarefa19_1/SoftVersion/SoftVersion.sdk/MB_version_wrapper.hdf into \MB_version_wrapper_hw_platform_0\system.hdf.
+03:52:53 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+03:52:54 INFO  : 
+03:52:56 INFO  : Updating hardware inferred compiler options for SDK_version.
+03:52:56 INFO  : Clearing existing target manager status.
+03:52:57 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+03:52:58 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+03:55:01 INFO  : Processor reset is completed for microblaze_0
+03:55:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:55:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274505290A" && level==0} -index 0' command is executed.
+03:55:52 INFO  : FPGA configured successfully with bitstream "D:/ECT-UA/CR/tarefa19_1/SoftVersion/SoftVersion.sdk/MB_version_wrapper_hw_platform_0/download.bit"
+03:56:21 INFO  : Processor reset is completed for microblaze_0
+03:56:51 INFO  : Processor reset is completed for microblaze_0
+03:57:17 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+03:57:18 INFO  : Processor reset is completed for microblaze_0
+03:57:36 INFO  : Processor reset is completed for microblaze_0
+03:58:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:58:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274505290A" && level==0} -index 0' command is executed.
+03:58:08 INFO  : FPGA configured successfully with bitstream "D:/ECT-UA/CR/tarefa19_1/SoftVersion/SoftVersion.sdk/MB_version_wrapper_hw_platform_0/download.bit"
+03:58:15 INFO  : Processor reset is completed for microblaze_0
+03:59:10 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+03:59:30 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+03:59:30 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+03:59:30 ERROR : Disconnect target failed.
+03:59:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:59:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274505290A" && level==0} -index 0' command is executed.
+03:59:36 INFO  : FPGA configured successfully with bitstream "D:/ECT-UA/CR/tarefa19_1/SoftVersion/SoftVersion.sdk/MB_version_wrapper_hw_platform_0/download.bit"
+03:59:55 INFO  : Processor reset is completed for microblaze_0
+04:00:32 INFO  : Processor reset is completed for microblaze_0
+04:00:56 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+04:01:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+04:01:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274505290A" && level==0} -index 0' command is executed.
+04:01:21 INFO  : FPGA configured successfully with bitstream "D:/ECT-UA/CR/tarefa19_1/SoftVersion/SoftVersion.sdk/MB_version_wrapper_hw_platform_0/download.bit"
+04:01:26 INFO  : Processor reset is completed for microblaze_0
+04:02:18 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+04:02:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+04:02:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274505290A" && level==0} -index 0' command is executed.
+04:02:55 INFO  : FPGA configured successfully with bitstream "D:/ECT-UA/CR/tarefa19_1/SoftVersion/SoftVersion.sdk/MB_version_wrapper_hw_platform_0/download.bit"
+04:03:00 INFO  : Processor reset is completed for microblaze_0
+04:03:15 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+04:03:15 ERROR : Timeout occured while waiting to get reply for command "targets 0"
+04:03:27 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+04:03:29 INFO  : Processor reset is completed for microblaze_0
+04:04:09 INFO  : Processor reset is completed for microblaze_0
+04:04:17 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+04:04:18 INFO  : Processor reset is completed for microblaze_0
+04:04:28 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+04:04:30 INFO  : Processor reset is completed for microblaze_0
+04:06:38 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:12:21 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+14:12:30 INFO  : XSDB server has started successfully.
+14:12:33 INFO  : Processing command line option -hwspec D:/ECT-UA/CR/tarefa19_1/SoftVersion/SoftVersion.sdk/MB_version_wrapper.hdf.
+14:12:35 INFO  : Checking for hwspec changes in the project MB_version_wrapper_hw_platform_0.
+14:13:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:13:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274505290A" && level==0} -index 0' command is executed.
+14:13:08 INFO  : FPGA configured successfully with bitstream "D:/ECT-UA/CR/tarefa19_1/SoftVersion/SoftVersion.sdk/MB_version_wrapper_hw_platform_0/download.bit"
+14:13:24 INFO  : Processor reset is completed for microblaze_0
+14:14:38 INFO  : Processor reset is completed for microblaze_0
+14:14:41 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+14:14:41 ERROR : Timeout occured while waiting to get reply for command "close_terminal"
+14:14:41 ERROR : Error while closing JTAG UART server: 
+14:14:46 INFO  : Processor reset is completed for microblaze_0
+14:15:26 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+14:35:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:35:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274505290A" && level==0} -index 0' command is executed.
+14:35:21 INFO  : FPGA configured successfully with bitstream "D:/ECT-UA/CR/tarefa19_1/SoftVersion/SoftVersion.sdk/MB_version_wrapper_hw_platform_0/download.bit"
+14:35:27 INFO  : Processor reset is completed for microblaze_0
+14:40:32 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

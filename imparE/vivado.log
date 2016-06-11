@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Fri Jun 03 01:24:25 2016
+# Process ID: 12804
+# Current directory: D:/ECT-UA/CR/tarefa19_1/imparE
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12948 D:\ECT-UA\CR\tarefa19_1\imparE\imparE.xpr
+# Log file: D:/ECT-UA/CR/tarefa19_1/imparE/vivado.log
+# Journal file: D:/ECT-UA/CR/tarefa19_1/imparE\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ECT-UA/CR/tarefa19_1/imparE/imparE.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ect-ua/cr/tarefa19_1/impare'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ect-ua/cr/tarefa19_1/checkimpar'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'.
+reset_run synth_1
+launch_runs impl_1
+[Fri Jun 03 01:26:00 2016] Launched synth_1...
+Run output will be captured here: D:/ECT-UA/CR/tarefa19_1/imparE/imparE.runs/synth_1/runme.log
+[Fri Jun 03 01:26:00 2016] Launched impl_1...
+Run output will be captured here: D:/ECT-UA/CR/tarefa19_1/imparE/imparE.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jun 03 01:27:59 2016...

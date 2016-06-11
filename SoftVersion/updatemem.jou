@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# updatemem v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# 
+# Start of session at: Fri Jun 03 14:35:04 2016
+# Process ID: 8024
+# Current directory: D:/ECT-UA/CR/tarefa19_1/SoftVersion
+# Command line: updatemem.exe -mode batch -source C:/Xilinx/SDK/2015.4/scripts/updatemem/main.tcl -notrace -tclargs -meminfo D:/ECT-UA/CR/tarefa19_1/SoftVersion/SoftVersion.sdk/MB_version_wrapper_hw_platform_0/MB_version_wrapper.mmi -data C:/Xilinx/SDK/2015.4/data/embeddedsw/lib/microblaze/mb_bootloop_le.elf -proc MB_version_i/microblaze_0 -bit D:/ECT-UA/CR/tarefa19_1/SoftVersion/SoftVersion.sdk/MB_version_wrapper_hw_platform_0/MB_version_wrapper.bit -out D:/ECT-UA/CR/tarefa19_1/SoftVersion/SoftVersion.sdk/MB_version_wrapper_hw_platform_0/download.bit -force
+# Log file: D:/ECT-UA/CR/tarefa19_1/SoftVersion/updatemem.log
+# Journal file: D:/ECT-UA/CR/tarefa19_1/SoftVersion\updatemem.jou
+#-----------------------------------------------------------
+source C:/Xilinx/SDK/2015.4/scripts/updatemem/main.tcl -notrace

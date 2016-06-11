@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Fri Jun 10 21:53:57 2016
+# Process ID: 8616
+# Current directory: D:/checkOddWords/clockDivider
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1696 D:\checkOddWords\clockDivider\clockDivider.xpr
+# Log file: D:/checkOddWords/clockDivider/vivado.log
+# Journal file: D:/checkOddWords/clockDivider\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/checkOddWords/clockDivider/clockDivider.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1

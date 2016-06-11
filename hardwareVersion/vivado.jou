@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Fri Jun 03 01:28:51 2016
+# Process ID: 15132
+# Current directory: D:/ECT-UA/CR/tarefa19_1/hardwareVersion
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4616 D:\ECT-UA\CR\tarefa19_1\hardwareVersion\hardwareVersion.xpr
+# Log file: D:/ECT-UA/CR/tarefa19_1/hardwareVersion/vivado.log
+# Journal file: D:/ECT-UA/CR/tarefa19_1/hardwareVersion\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ECT-UA/CR/tarefa19_1/hardwareVersion/hardwareVersion.xpr
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/ECT-UA/CR/tarefa19_1/hardwareVersion/hardwareVersion.runs/impl_1/hardversion_wrapper.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {D:/ECT-UA/CR/tarefa19_1/hardwareVersion/hardwareVersion.runs/impl_1/hardversion_wrapper.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
