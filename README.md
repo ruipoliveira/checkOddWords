@@ -4,14 +4,14 @@
 ### Task
 
 Use general structure (following figure)
+
 ![alt tag](https://github.com/ruipoliveira/checkOddWords/blob/master/resources/Screenshot%202016-06-11%2020.36.27.png)
 
 You have to include the following two tasks:
 
 a) Hardware with data stored in ROM and check results using switches, buttons and displays.
 
-b)Hardware connection with software developed for MicroBlaze processor
-
+b) Hardware connection with software developed for MicroBlaze processor
 
 * Input data: 16 words / 16 bit 
 
@@ -27,12 +27,13 @@ Hardware solution ([hardwareVersion](https://github.com/ruipoliveira/checkOddWor
 ![alt tag](https://github.com/ruipoliveira/checkOddWords/blob/master/resources/hardVersion.png)
 
 Software solution ([SoftVersion](https://github.com/ruipoliveira/checkOddWords/tree/master/SoftVersion))
-![alt tag](https://github.com/ruipoliveira/checkOddWords/blob/master/resources/softVersion.png)~
+![alt tag](https://github.com/ruipoliveira/checkOddWords/blob/master/resources/softVersion.png)
 
 ---
 ### Result/Execution
+fdsfsd
 
-
+---
 ### Authors
 
 * Rui Oliveira (ruipedrooliveira@ua.pt) 
