@@ -1,5 +1,16 @@
 # checkOddWords
 
+## Last project in Reconfigurable Computing
+
+### Hardaware + IDE 
+
+* Nexys4™ FPGA Xilinx Board ([Manual](http://www.xilinx.com/support/documentation/university/XUP%20Boards/XUPNexys4/documenatation/Nexys4_RM_VB1_Final_3.pdf))
+![alt tag](https://reference.digilentinc.com/_media/nexys/nexys4/nexys4-obl-600_1_.png)
+
+* Vivado + SDK (optimized 2015.4) ([Download](http://www.xilinx.com/support/download.html))
+
+
+---
 
 ### Task
 
@@ -31,10 +42,9 @@ Software solution ([SoftVersion](https://github.com/ruipoliveira/checkOddWords/t
 
 ---
 ### Result/Execution
-fdsfsd
+
 
 ---
 ### Authors
 
-* Rui Oliveira (ruipedrooliveira@ua.pt) 
-* 
+* Rui Oliveira (ruipedrooliveira@ua.pt)
