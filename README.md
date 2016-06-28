@@ -1,7 +1,9 @@
 # checkOddWords
 
-Usar a estrutura geral que se encontra de seguinda: 
+Problema: 
 
+Usar a estrutura geral da figura seguinte: 
+![alt tag](https://github.com/ruipoliveira/checkOddWords/blob/master/resources/Screenshot%202016-06-11%2020.36.27.png)
 
 A tarefa deve incluir as duas partes seguintes: 
 
@@ -15,3 +17,11 @@ Tipo de processamento: encontrar todas as palavras impares
 Dados de saída: LEDs: mostrar sequencialmente as palavras encontradas em binario com frequência de aproximadamente 1Hz
 
 Usar software para entrada de dados iniciais.
+
+
+---
+Solução em hardware
+![alt tag](https://github.com/ruipoliveira/checkOddWords/blob/master/resources/hardVersion.png)
+
+Solução em software
+![alt tag](https://github.com/ruipoliveira/checkOddWords/blob/master/resources/softVersion.png)
