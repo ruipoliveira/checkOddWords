@@ -1,27 +1,39 @@
 # checkOddWords
 
-Problema: 
 
-Usar a estrutura geral da figura seguinte: 
+### Task
+
+Use general structure (following figure)
 ![alt tag](https://github.com/ruipoliveira/checkOddWords/blob/master/resources/Screenshot%202016-06-11%2020.36.27.png)
 
-A tarefa deve incluir as duas partes seguintes: 
+You have to include the following two tasks:
 
-a) Desenvolvimento de hardware com dados gravados na memória ROM e verificação de resultados utilizando interruptores, botões e displays.
-b) Ligação de hardware com software desenvolvido para processador MicroBlaze
+a) Hardware with data stored in ROM and check results using switches, buttons and displays.
 
-Dados de entrada: 16 palavras de 16 bits
+b)Hardware connection with software developed for MicroBlaze processor
 
-Tipo de processamento: encontrar todas as palavras impares 
 
-Dados de saída: LEDs: mostrar sequencialmente as palavras encontradas em binario com frequência de aproximadamente 1Hz
+* Input data: 16 words / 16 bit 
 
-Usar software para entrada de dados iniciais.
+* Processing: find all the odd words
 
+* Output data: LEDs(16 bit): sequentially show the words found in binary with a frequency of approximately 1 Hz
+
+* Use software to input initial data .
 
 ---
-Solução em hardware
+### Solutions
+Hardware solution ([hardwareVersion](https://github.com/ruipoliveira/checkOddWords/tree/master/hardwareVersion))
 ![alt tag](https://github.com/ruipoliveira/checkOddWords/blob/master/resources/hardVersion.png)
 
-Solução em software
-![alt tag](https://github.com/ruipoliveira/checkOddWords/blob/master/resources/softVersion.png)
+Software solution ([SoftVersion](https://github.com/ruipoliveira/checkOddWords/tree/master/SoftVersion))
+![alt tag](https://github.com/ruipoliveira/checkOddWords/blob/master/resources/softVersion.png)~
+
+---
+### Result/Execution
+
+
+### Authors
+
+* Rui Oliveira (ruipedrooliveira@ua.pt) 
+* 
