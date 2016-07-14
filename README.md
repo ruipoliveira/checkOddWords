@@ -43,6 +43,7 @@ Software solution ([SoftVersion](https://github.com/ruipoliveira/checkOddWords/t
 ---
 ### Result/Execution
 
+* Video [YouTube](https://youtu.be/pe8G2I694ic)
 
 ---
 ### Authors
