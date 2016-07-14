@@ -46,10 +46,10 @@ Software solution ([SoftVersion](https://github.com/ruipoliveira/checkOddWords/t
 ![alt tag](https://github.com/ruipoliveira/checkOddWords/blob/master/resources/IMG_20160603_013006258.jpg)
 
 * Video - [YouTube](https://youtu.be/pe8G2I694ic)
+* Four right displays: values in hexadecimal
+* Display leftmost: number of odd words
+* Leds: words in the binary frequency of 1Hz
 
-* four right displays: values in hexadecimal
-* display leftmost: number of odd words
-* leds: words in the binary frequency of 1Hz
 ---
 ### Authors
 
