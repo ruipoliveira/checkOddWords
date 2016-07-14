@@ -43,7 +43,9 @@ Software solution ([SoftVersion](https://github.com/ruipoliveira/checkOddWords/t
 ---
 ### Result/Execution
 
-* Video [YouTube](https://youtu.be/pe8G2I694ic)
+![alt tag](https://github.com/ruipoliveira/checkOddWords/blob/master/resources/IMG_20160603_013006258.jpg)
+
+* Video - [YouTube](https://youtu.be/pe8G2I694ic)
 
 ---
 ### Authors
