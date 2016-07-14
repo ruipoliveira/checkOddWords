@@ -47,6 +47,9 @@ Software solution ([SoftVersion](https://github.com/ruipoliveira/checkOddWords/t
 
 * Video - [YouTube](https://youtu.be/pe8G2I694ic)
 
+* four right displays: values in hexadecimal
+* display leftmost: number of odd words
+* leds: words in the binary frequency of 1Hz
 ---
 ### Authors
 
